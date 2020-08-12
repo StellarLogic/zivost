@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.layout > div {
+  flex: 1;
+}
+.layout .main {
+  margin-left: 70px;
+}
+
+@media (max-width: 767px) {
+  .layout {
+    flex-wrap: wrap;
+  }
+  .layout .main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+}

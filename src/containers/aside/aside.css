@@ -1,0 +1,89 @@
+.aside {
+  max-width: 358px;
+  background: #fff;
+  position: relative;
+}
+
+.more {
+  margin: 16px 0px 36px 0px;
+  margin-left: 92px;
+}
+
+.more a {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b9191a;
+}
+
+.collection .collection-title {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 5px 10px;
+  background: #cccccc;
+}
+
+.aside .collaps-btn {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background: #6b75ca;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 45px;
+  transform: translate(-100%, -50%);
+  transform-origin: right center;
+  opacity: 0.3;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.aside:hover .collaps-btn {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .aside {
+    max-width: 300px;
+  }
+}
+@media (max-width: 1024px) {
+  .aside {
+    max-width: 275px;
+  }
+  .card-img img {
+    height: 46px !important;
+    width: 46px !important;
+  }
+}
+@media (max-width: 991px) {
+  .aside {
+    flex: 1 1 0%;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.09);
+  }
+}
+
+@media (max-width: 767px) {
+  .aside {
+    position: relative;
+    right: auto;
+    height: auto;
+    box-shadow: none;
+    max-width: initial;
+    flex-basis: 100% !important;
+  }
+  .aside .collaps-btn {
+    display: none;
+  }
+}

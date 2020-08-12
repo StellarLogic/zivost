@@ -1,0 +1,66 @@
+.live {
+  font-size: 8px;
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  background-color: #cb444a;
+  font-family: "Lato", sans-serif;
+  width: 36px;
+  height: 18px;
+  border-radius: 6px;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+.live:focus {
+  outline: none;
+}
+
+.live:hover {
+  background: #fff;
+  color: #cb444a;
+  border: 1px solid #cb444a;
+}
+
+.prime-btn {
+  background-color: #44cb7c;
+  padding: 14px 23px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Lato;
+  display: inline-block;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.prime-btn:hover {
+  background: #fff;
+  color: #44cb7c;
+  border: 2px solid #44cb7c;
+}
+
+@media (max-width: 1024px) {
+  .prime-btn {
+    padding: 12px 23px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .btn-wrapper {
+    margin: 15px 0;
+  }
+  .prime-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid transparent;
+  }
+  .prime-btn:hover {
+    border: 1px solid #44cb7c;
+  }
+}

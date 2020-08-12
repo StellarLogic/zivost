@@ -1,0 +1,160 @@
+.home {
+  background: #ffff;
+  margin: 18px 18px 18px 18px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+  padding: 29px;
+}
+
+.greeting-img {
+  text-align: center;
+}
+
+.greeting-img img {
+  object-fit: cover;
+}
+
+.title {
+  font-family: AvenirBold;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #000000;
+  margin: 18px 0 13px;
+  letter-spacing: 1.67px;
+}
+.sub-title {
+  text-align: center;
+  letter-spacing: 0.71px;
+  font-family: Avenir;
+  font-size: 17px;
+}
+
+.sub-title .bold {
+  font-weight: bold;
+}
+
+.second-text {
+  color: #6b75ca;
+}
+
+.home-connect span {
+  margin-right: 5px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 23px 0;
+}
+
+.para {
+  width: 80%;
+  margin: 0 auto 34px;
+}
+
+.para p {
+  font-family: Avenir;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
+
+.para p:last-child {
+  margin: 0;
+}
+
+.report {
+  font-family: Lato;
+  font-size: 10px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto 29px;
+}
+
+.list li {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.list li.list-title {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 9px;
+}
+
+.list li.list-sub {
+  font-family: Avenir;
+  font-size: 12px;
+}
+
+.list li.list-sub a {
+  color: #000;
+}
+
+@media (max-width: 1200px) {
+  .greeting-img img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1024px) {
+  .greeting-img img {
+    width: 125px !important;
+    height: 125px !important;
+  }
+  .title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    margin: 15px 0 10px;
+  }
+  .sub-title {
+    font-size: 16px;
+  }
+  .greeting-img img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .home {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    margin: 10px;
+    border-radius: 7px;
+  }
+  .list {
+    flex-direction: column;
+  }
+
+  .list li:nth-child(3) {
+    order: 2;
+    margin-bottom: 15px;
+  }
+
+  .list li:nth-child(2) {
+    order: 3;
+  }
+
+  .list li:nth-child(4) {
+    order: 4;
+  }
+}

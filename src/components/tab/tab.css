@@ -1,0 +1,35 @@
+.tab {
+  font-family: Avenir;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #eaedf3;
+}
+
+.tab span {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 0.71;
+  color: rgba(50, 62, 74, 0.62);
+  display: inline-block;
+  padding: 18px;
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab span:first-child::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 22px;
+  width: 2px;
+  background: #eaedf3;
+}
+
+.tab span.active {
+  color: #323e4a;
+}

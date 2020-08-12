@@ -1,0 +1,90 @@
+.header {
+  padding: 15px 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ebebeb;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left > div {
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 141px;
+  height: 41px;
+}
+
+.time {
+  font-family: "Lato", sans-serif;
+}
+
+.time h6 {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.time p {
+  font-size: 11px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: Avenir;
+  margin-right: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact span {
+  text-decoration: underline;
+  margin-left: 9px;
+  line-height: 1;
+}
+
+@media (max-width: 576px) {
+  .header .left {
+    flex-basis: 70%;
+  }
+  .left {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .header .time {
+    flex-basis: 100%;
+  }
+  .left > .live-wrapper {
+  }
+  .left > div {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px 15px;
+  }
+  .right {
+    flex-direction: column;
+  }
+  .right .contact {
+    order: 2;
+    margin: 10px 0 0 0;
+  }
+}

@@ -1,0 +1,32 @@
+/* font imports  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@font-face {
+  font-family: Avenir;
+  src: url("./fonts//Avenir/AvenirLTStd-Book.woff2");
+}
+@font-face {
+  font-family: AvenirBold;
+  src: url("./fonts//Avenir/AvenirLTStd-Medium.woff2");
+}
+
+/* resets */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #eff1f7;
+  /* border: 1px solid #ebebeb; */
+}

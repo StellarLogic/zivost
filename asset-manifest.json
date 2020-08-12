@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/zivost/static/css/main.81ac87e2.chunk.css",
+    "main.js": "/zivost/static/js/main.1528de74.chunk.js",
+    "main.js.map": "/zivost/static/js/main.1528de74.chunk.js.map",
+    "runtime-main.js": "/zivost/static/js/runtime-main.5a0b7752.js",
+    "runtime-main.js.map": "/zivost/static/js/runtime-main.5a0b7752.js.map",
+    "static/css/2.0e7909e3.chunk.css": "/zivost/static/css/2.0e7909e3.chunk.css",
+    "static/js/2.42b17c8d.chunk.js": "/zivost/static/js/2.42b17c8d.chunk.js",
+    "static/js/2.42b17c8d.chunk.js.map": "/zivost/static/js/2.42b17c8d.chunk.js.map",
+    "index.html": "/zivost/index.html",
+    "precache-manifest.360cafa26dc8c52874874f52ba62aadc.js": "/zivost/precache-manifest.360cafa26dc8c52874874f52ba62aadc.js",
+    "service-worker.js": "/zivost/service-worker.js",
+    "static/css/2.0e7909e3.chunk.css.map": "/zivost/static/css/2.0e7909e3.chunk.css.map",
+    "static/css/main.81ac87e2.chunk.css.map": "/zivost/static/css/main.81ac87e2.chunk.css.map",
+    "static/js/2.42b17c8d.chunk.js.LICENSE.txt": "/zivost/static/js/2.42b17c8d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/zivost/static/media/AvenirLTStd-Medium.2bd52a72.woff2",
+    "static/media/background-copy.svg": "/zivost/static/media/background-copy.f64a5b3a.svg",
+    "static/media/font-awesome.css": "/zivost/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo-complete@2x.png": "/zivost/static/media/logo-complete@2x.9b67543a.png",
+    "static/media/profile-1.jpg": "/zivost/static/media/profile-1.70f1f76f.jpg",
+    "static/media/profile-2.jpg": "/zivost/static/media/profile-2.c66ed6c4.jpg",
+    "static/media/profile-3.jpg": "/zivost/static/media/profile-3.97491a8f.jpg",
+    "static/media/profile-4.jpg": "/zivost/static/media/profile-4.36d6b067.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a0b7752.js",
+    "static/css/2.0e7909e3.chunk.css",
+    "static/js/2.42b17c8d.chunk.js",
+    "static/css/main.81ac87e2.chunk.css",
+    "static/js/main.1528de74.chunk.js"
+  ]
+}
